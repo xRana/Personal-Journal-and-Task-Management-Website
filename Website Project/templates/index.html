@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    index
+{% endblock %}
+
+{% block main %}
+<form action="/index" method="post">
+    <div align="left" class="index">
+        <h1 style="color:#D2691E;" >Welcome to our Website!</h1>
+        <p style="letter-spacing: 1px; line-height: 2;">Welcome to our digital diary haven! Whether you're capturing life's moments, sharing reflections, <br>or connecting with others, this is your space. Explore, write, and create your story.<br> Welcome to the journey of self-expression!</p>
+        <a class="nav-link" href="/write" style="background-color: #5F9EA0; color: white; height: 40px; width: 13%;">Write a diary now</a>
+    </div>
+    <div>
+        <div class="circle" style="position:relative; left:640px; top:-286px; background-color: #5F9EA0;"></div>
+        <div class="circle" style="position:relative; left:-638px; top:70px; "></div>
+    </div>
+    </form>
+
+{% endblock %}

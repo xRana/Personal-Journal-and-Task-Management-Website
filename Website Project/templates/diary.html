@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    diary
+{% endblock %}
+
+{% block main %}
+   <form action="/diary" method="post">
+    <label class="datel" for="diarys">Date:</label>
+    <input type="date" id="date" name="date" max="{{today}}" min="{{min}}">
+    <button class="button-33" type="submit">Done</button>
+   </form>
+{% endblock %}

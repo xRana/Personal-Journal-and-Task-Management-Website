@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    tasks
+{% endblock %}
+
+{% block main %}
+<form action="/tasks" method="post">
+    <div class="checkbox-wrapper-30">
+        <input id="inadd" type="text" name="todo">
+        <button id="add" class="button-33">Add</button>
+        <br>
+    </div>
+        {% for row in tasks %}
+        <ul class="task">
+            <li style="color: white;">
+                <button class="button-4"><a style="color: #DC143C; text-decoration: none;" href='/delete1/{{ row["task"] }}'>Delete</a></button>
+                <button class="button-4"><a style="color: #5F9EA0; text-decoration: none;" href='/check/{{ row["task"] }}'>Check</a></button>
+                <span class="span-task" {% if row[ 'checked' ] %} style="text-decoration: line-through " {%endif%}>- {{ row["task"] }}</span>
+            </li>
+
+        </ul>
+        {% endfor %}
+</form>
+{% endblock %}

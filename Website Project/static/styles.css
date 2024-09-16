@@ -1,0 +1,221 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+nav .navbar-brand .red
+{
+    color: #708090;
+}
+
+table {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(179, 208, 255, 0.3)
+}
+
+.dot
+{
+
+    color: #2e944b;
+}
+
+.circle {
+    display: inline-block;
+    opacity: 0.5;
+    height: 250px;
+    width: 350px;
+    background-color: #D2691E;
+    border-radius: 10px 100px / 120px 100px;
+
+
+  }
+
+.index {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+textarea {
+    width: 80%;
+    height: 550px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    font-size: 20px;
+    border: 3px solid #5F9EA0;
+    resize: none;
+  }
+
+textarea:focus {
+    outline: none !important;
+    border-color: #5F9EA0;
+    box-shadow: 0 0 8px #5F9EA0;
+}
+
+.button-33 {
+  align-items: center;
+  appearance: none;
+  background-color: #5F9EA0;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-33:active,
+.button-33:focus {
+  outline: none;
+}
+
+.button-33:hover {
+  background-position: -20px -20px;
+}
+
+.button-33:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+input[type="date"]{
+    background-color: #F5F5F5;
+    transform: translate(0%,-10%);
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.datel {
+    color: #D2691E;
+    font-size: 22px;
+    transform: translate(-10%,-10%);
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #D2691E;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: #D2691E;
+  }
+
+.input:focus {
+    outline: none !important;
+    border-color: #D2691E;
+    box-shadow: 0 0 2px #D2691E;
+}
+
+.button-4 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
+
+.checkbox-wrapper-30 {
+  text-align: left;
+  transform: translate(2%,0%);
+}
+
+.task {
+  transform: translate(2%,0%);
+  text-align: left;
+  padding: 7px 0px;
+}
+
+.span-task {
+  font-size: 20px;
+  color: black;
+}
+
+#add {
+  transform: translate(3%,-10%);
+  
+}
+
+#inadd {
+  border: 1.9px solid #D2691E;
+}
+

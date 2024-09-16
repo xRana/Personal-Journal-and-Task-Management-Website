@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    write
+{% endblock %}
+
+{% block main %}
+<form action="/write" method="post">
+    <div>
+        <h3 style="color: #D2691E;">Dear Diary</h3>
+        <textarea placeholder="Dear diary..." class="texta" id="write" name="write" rows="18" cols="100">{% for row in text %}{{ row["diary"] }}{% endfor %}</textarea>
+    </div>
+    <div>
+       <button class="button-33" type="submit">Done</button>
+    </div>
+</form>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    view
+{% endblock %}
+
+{% block main %}
+<form action="/view" method="post">
+    <div>
+        <h3 style="color: #D2691E;">{% for row in view %}{{ row["date"] }}{% endfor %}</h3>
+        <textarea id="view" name="view" rows="18" cols="100" readonly>{% for row in view %}{{ row["diary"] }}{% endfor %}</textarea>
+    </div>
+</form>
+{% endblock %}
