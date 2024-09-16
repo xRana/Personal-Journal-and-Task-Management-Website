@@ -1,6 +1,3 @@
-# YOUR PROJECT TITLE
-#### Video Demo:  https://youtu.be/srea-z89BXg
-#### Description:
 
 # Personal Diary Web App
 
